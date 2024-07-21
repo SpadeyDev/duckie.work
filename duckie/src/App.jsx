@@ -1,5 +1,11 @@
+import Homepage from "./containers/home";
+
 function App() {
-  return <>test</>;
+  return (
+    <>
+      <Homepage />
+    </>
+  );
 }
 
 export default App;

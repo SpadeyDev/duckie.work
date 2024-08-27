@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
+import Steps from "../components/Steps";
 
 function Homepage() {
   return (
@@ -9,6 +10,7 @@ function Homepage() {
         <div className="h-full max-w-[1100px] w-[95%]">
           <Nav />
           <Header />
+          <Steps />
         </div>
       </div>
     </>

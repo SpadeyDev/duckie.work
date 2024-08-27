@@ -1,9 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "./Logo";
 
 function Nav() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="w-full h-[2.4rem] mt-6 flex items-center justify-between sticky top-[1.5rem] z-50">
+    <div
+      className={`w-full h-[2.4rem] mt-6 flex items-center justify-between z-50 transition-all ${
+        isScrolled
+          ? "sticky top-[1.5rem] bg-gray-500 rounded-xl px-8"
+          : "sticky top-[1.5rem]"
+      }`}
+    >
       <div className="absolute inset-0 w-full h-full z-0 backdrop-blur-md"></div>
       <div className="relative z-10">
         <Logo />

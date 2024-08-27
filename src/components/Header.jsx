@@ -35,7 +35,7 @@ function Header() {
         </div>
         <div className="relative mt-24">
           <div className="absolute inset-0 w-full h-full flex items-center justify-center z-0">
-            <div className="w-[800px] h-[450px] blur-[250px] rounded-full bg-gradient-to-r from-[#FFA775] via-[#F553E5] to-[#5295FA] z-0"></div>
+            <div className="w-[800px] h-[450px] blur-[250px] rounded-full bg-gradient-to-r from-[#08203E] to-[#6036E9] z-0"></div>
           </div>
           <BorderBeamDemo className="relative z-10" />
         </div>

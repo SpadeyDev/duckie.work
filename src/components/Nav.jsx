@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 function Nav() {
   return (
-    <div className="w-full h-[2.4rem] mt-6 flex items-center justify-between sticky top-[1.5rem] z-10">
+    <div className="w-full h-[2.4rem] mt-6 flex items-center justify-between sticky top-[1.5rem] z-50">
       <div className="absolute inset-0 w-full h-full z-0 backdrop-blur-md"></div>
       <div className="relative z-10">
         <Logo />

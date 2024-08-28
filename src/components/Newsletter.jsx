@@ -22,44 +22,13 @@ function Newslatter() {
           </p>
         </div>
         <div className="text-center relative z-10 pt-8">
-          <a href="#" className="bg-white px-6 py-2 rounded-md">
+          <a
+            href="#"
+            className="bg-white px-6 py-2 rounded-md hover:bg-white/20"
+          >
             Get started for free
           </a>
         </div>
-        {/* <div className="text-white relative z-10 mt-64">
-          <div className="h-[10rem] w-[900px] border rounded-md border-gray-500/50">
-            <div className="flex items-center justify-between w-full h-full px-12">
-              <div>
-                <div className="flex-col items-center justify-center">
-                  <h2 className="text-[24px] font-semibold">
-                    Join our newsletter
-                  </h2>
-                  <p className="text-white/50 text-[14px] mt-1">
-                    Be up to date with everything about AI builder
-                  </p>
-                </div>
-              </div>
-              <div className="flex-col items-center justify-center">
-                <div className="flex items-center justify-center">
-                  {" "}
-                  <input
-                    type="text"
-                    placeholder="Enter your email"
-                    className="bg-[#03070F] text-white/50 placeholder:text-[14px] outline-none placeholder:px-2"
-                  />
-                  <button className="bg-[#001633] text-[#003CB0] rounded-md px-3 py-2">
-                    Subscribe
-                  </button>
-                </div>
-                <div>
-                  <p>
-                    By subscribing you agree with our Privacy Policy
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="mt-48 border border-gray-600/50 p-8 rounded-lg w-[800px] mx-auto text-white">
           <h2 className="text-2xl font-bold mb-2">Join our newsletter</h2>
           <p className="mb-6 text-gray-400">
@@ -73,7 +42,7 @@ function Newslatter() {
             />
             <button
               type="submit"
-              className="bg-[#08203E] hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-r-lg"
+              className="bg-[#08203E] hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-r-lg transition-all"
             >
               Subscribe
             </button>

@@ -9,7 +9,7 @@ function Steps() {
       <div className="flex-col items-center justify-center">
         <div className="flex items-center justify-center">
           <div className="bg-gradient-to-r from-[#163C6D] to-[#6036E9] p-[2px] rounded-full inline-block">
-            <button className="bg-[#03070F] rounded-full px-8 py-2 w-full h-full text-white">
+            <button className="bg-[#03070F] rounded-full px-6 py-1 w-full h-full text-white text-[15px]">
               The Progress
             </button>
           </div>
@@ -26,7 +26,7 @@ function Steps() {
           </p>
         </div>
         <div className="flex items-center justify-between w-full mt-24">
-          <div className="flex-col items-start justify-start w-[350px]">
+          <div className="flex-col items-start justify-start w-[350px] pl-12">
             <div>
               <MdDesignServices className="w-10 h-10" />
             </div>
@@ -39,7 +39,7 @@ function Steps() {
               </p>
             </div>
           </div>
-          <div className="border-x border-gray-600 py-20 w-[350px]">
+          <div className="border-x border-gray-600/50 py-10 w-[350px]">
             <div className="flex-col items-start justify-start w-[350px] pl-12">
               <div>
                 <SiXcode className="w-10 h-10" />

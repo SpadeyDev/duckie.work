@@ -2,6 +2,9 @@ import React from "react";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Steps from "../components/Steps";
+import Features from "../components/Features";
+import Customers from "../components/Customers";
+import Newslatter from "../components/Newsletter";
 
 function Homepage() {
   return (
@@ -11,6 +14,9 @@ function Homepage() {
           <Nav />
           <Header />
           <Steps />
+          <Features />
+          <Customers />
+          <Newslatter />
         </div>
       </div>
     </>

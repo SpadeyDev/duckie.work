@@ -2,7 +2,7 @@ import React from "react";
 
 function Newslatter() {
   return (
-    <div className="flex items-center justify-center w-full h-[40rem] z-10">
+    <div className="flex items-center justify-center w-full h-[40rem] z-10 mt-32">
       <div className="flex-col items-center justify-center">
         <div className="text-center">
           <h1 className="text-white text-[50px] font-semibold z-10 relative">
@@ -17,8 +17,7 @@ function Newslatter() {
         </div>
         <div className="text-center pt-4 z-10 relative">
           <p className="text-gray-400">
-            Build stunning websites with Astra's intuitive drag-and{" "}
-            <br />
+            Build stunning websites with Astra's intuitive drag-and <br />
             -drop builder and powerful AI assistant
           </p>
         </div>
@@ -62,9 +61,7 @@ function Newslatter() {
           </div>
         </div> */}
         <div className="mt-48 border border-gray-600/50 p-8 rounded-lg w-[800px] mx-auto text-white">
-          <h2 className="text-2xl font-bold mb-2">
-            Join our newsletter
-          </h2>
+          <h2 className="text-2xl font-bold mb-2">Join our newsletter</h2>
           <p className="mb-6 text-gray-400">
             Be up to date with everything about AI builder
           </p>

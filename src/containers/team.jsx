@@ -4,24 +4,43 @@ import profilepng from "../assets/profile.jpg";
 
 function Team() {
   return (
-    <div className="flex items-center justify-center w-full h-screen bg-[#03070F] font-poppins">
+    <div className="flex items-center justify-center w-full h-screen bg-[#03070F] font-poppins overflow-x-hidden">
       <div className="h-full max-w-[1100px] w-[95%]">
         <Nav />
         <div className="text-white mt-24">
-          <div className="text-center">
+          <div className="flex items-center justify-center">
+            <div className="bg-gradient-to-r from-[#163C6D] to-[#6036E9] p-[2px] rounded-full inline-block">
+              <button className="bg-[#03070F] rounded-full px-6 py-1 w-full h-full text-white text-[15px]">
+                Meet our team
+              </button>
+            </div>
+          </div>
+          <div className="text-center mt-8">
             <h1 className="text-white text-[50px] font-semibold z-10 relative">
               Team
             </h1>
             <p className="text-white/50">
-              A group of passionate developers committed to building innovative
-              and <br />
-              impactful solutions. With expertise in frontend, backend, and
-              mobile.
+              A group of passionate developers committed to building
+              innovative and <br />
+              impactful solutions. With expertise in frontend,
+              backend, and mobile.
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-6 justify-items-center mt-20">
+        <div className="relative mt-24">
+          <div className="absolute right-1/2 top-[50px] w-full h-full flex items-center justify-center z-0">
+            <div className="w-[600px] h-[350px] blur-[250px] rounded-full bg-gradient-to-r from-[#08203E] to-[#6036E9] z-0"></div>
+          </div>
+        </div>
+
+        <div className="relative mt-24">
+          <div className="absolute left-1/2 top-[50px] w-full h-full flex items-center justify-center z-0">
+            <div className="w-[600px] h-[350px] blur-[250px] rounded-full bg-gradient-to-r from-[#08203E] to-[#6036E9] z-0"></div>
+          </div>
+        </div>
+
+        <div className="grid max-sm:grid-cols-1 max-lg:grid-cols-2 grid-cols-3 gap-6 justify-items-center mt-20">
           <div className="relative p-1.5 bg-gradient-to-r from-pink-600 to-red-600 rounded-lg shadow-lg cursor-pointer">
             <div className="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-lg p-4 flex items-center space-x-4 w-[300px]">
               <img
@@ -30,7 +49,9 @@ function Team() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-white text-lg font-semibold">@Spadey</h3>
+                <h3 className="text-white text-lg font-semibold">
+                  @Spadey
+                </h3>
                 <p className="text-black text-sm font-semibold">
                   Backend Developer
                 </p>
@@ -46,7 +67,9 @@ function Team() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-white text-lg font-semibold">@Berke</h3>
+                <h3 className="text-white text-lg font-semibold">
+                  @Berke
+                </h3>
                 <p className="text-black text-sm font-semibold">
                   Frontend Developer
                 </p>
@@ -62,7 +85,9 @@ function Team() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-white text-lg font-semibold">@Aysu</h3>
+                <h3 className="text-white text-lg font-semibold">
+                  @Aysu
+                </h3>
                 <p className="text-black text-sm font-semibold">
                   Mobile Developer
                 </p>
@@ -77,7 +102,9 @@ function Team() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-white text-lg font-semibold">@Yağmur</h3>
+                <h3 className="text-white text-lg font-semibold">
+                  @Yağmur
+                </h3>
                 <p className="text-black text-sm font-semibold">
                   DevOps Engineer
                 </p>
@@ -93,7 +120,9 @@ function Team() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-white text-lg font-semibold">@Eren</h3>
+                <h3 className="text-white text-lg font-semibold">
+                  @Eren
+                </h3>
                 <p className="text-black text-sm font-semibold">
                   UI/UX Designer
                 </p>
@@ -109,7 +138,9 @@ function Team() {
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div>
-                <h3 className="text-white text-lg font-semibold">@Eylül</h3>
+                <h3 className="text-white text-lg font-semibold">
+                  @Eylül
+                </h3>
                 <p className="text-black text-sm font-semibold">
                   Project Manager
                 </p>
